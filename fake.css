@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* hero background image */
+/*https://cdn.dribbble.com/users/1468731/screenshots/5628729/second-shot.gif*/
+/*https://cdn.dribbble.com/users/1373613/screenshots/6200333/__1.gif*/
+
+.bgimage2 {
+    height:100vh;
+    background-color: #121212;
+    background-size:cover;
+    position:relative;
+    background-repeat: no-repeat;
+
+background-size: 100% 100%;
+}
+.learn{
+    width:150px; height:50px;
+    border-radius: 5%;
+    background: #303030;
+    color: #fff;
+    border: 2px solid #303030;
+    box-shadow: 0 10px 15px #43d106;
+}
+
+.glassbox2 {
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+}
+
+.con1{
+    height:100vh;
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    display: flex;
+}
+.con2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+    background: #303030;
+    z-index: 10;
+    display: flex;
+    position: relative;
+    border: 2px solid #06681b;
+    box-shadow: 0 10px 15px #fff;
+    border-radius: 50%;
+}
+
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.btn {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+.glassbox {
+    border-radius: 30px;
+     width: 100%;
+     background: #303030;
+     z-index: 10;
+     display: flex;
+     position: relative;
+     border: 2px solid #303030;
+     box-shadow: 0 10px 15px #000;
+
+}
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* spacing on all sections */
+#TestModel, #Abstract, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact ,#TestModel{
+    padding-bottom: 4rem;
+}
+select {
+    width: 100%;
+    background: #303030;
+    z-index: 10;
+    display: flex;
+    position: relative;
+    border: 2px solid #303030;
+    box-shadow: 0 10px 15px #000;
+    color: #fff;
+   }
+   input{
+    width: 100%;
+    background: #303030;
+    z-index: 10;
+    display: flex;
+    box-shadow: 0 10px 15px #000 ;
+    border: 2px solid #303030;
+       color: #fff;
+   }
+.result{
+    width: 100%;
+    background: #303030;
+    z-index: 10;
+    display: flex;
+    box-shadow: 0 10px 15px #06681b;
+    border: 2px solid #303030;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+
+}
