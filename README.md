@@ -8,8 +8,6 @@ A real-time web application that detects fake profiles using an ensemble of mach
 
 👉 [Click here to try the app](https://fake-profile-detection-mo0s.onrender.com)
 
-> ℹ️ Make sure to replace this with your actual deployed URL.
-
 ---
 
 ## 🚀 Features
